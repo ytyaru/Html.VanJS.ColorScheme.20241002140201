@@ -9,6 +9,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     )
     van.add(document.querySelector('footer'),  new Footer('ytyaru', '../').make())
 
+    // 配色設定
     const cs = new ColorScheme()
     cs.mode = 'dark'
     cs.mode = 'light'
