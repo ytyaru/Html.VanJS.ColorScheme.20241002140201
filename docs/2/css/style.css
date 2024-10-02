@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    --line-of-chars:40;
+    font-size: calc(100vw / (var(--line-of-chars)));
+}
+*/
+img.icon { width: 1em; height: 1em; }
+footer { text-align:center; }
+:root {
+    --base-color: white;
+    --main-color: black;
+    --selection-color: cyan;
+    --a-link-color: #4007a2;
+}
+body,input,select,textarea,label,legend {
+    background-color: var(--base-color);
+    color: var(--main-color);
+}
+::selection {
+    background-color: var(--selection-color);
+}
+a:link {color: var(--a-link-color);}
+a:visited {color: var(--a-visited-color);}
+a:hover {color: var(--a-hover-color);}
+a:active {color: var(--a-active-color);}

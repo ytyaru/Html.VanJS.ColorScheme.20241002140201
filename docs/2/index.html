@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="description" content="">
+<meta name="author" content="ytyaru">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">
+<link rel="icon" href="../asset/image/author/ytyaru.png">
+<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="../lib/van/1.2.6/nomodule.min.js"></script>
+<script src="../js/footer.js"></script>
+<script src="js/color-scheme.js"></script>
+<script src="js/main.js"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+    <h1>見出し</h1>
+    <p>本文<a href="">リンク</a><kbd>Ctrl+C</kbd><ruby>漢字<rt>かんじ</rt></ruby><mark>マーク</mark><strong>強調</strong></p>
+    <small>© 2024 ytyaru<small>
+    <pre>pre 生テキスト</pre>
+    <code>code</code>
+    <q>q 引用要素</q>
+    <blockquote cite="https://www.google.co.jp/">
+        <p>blockquote ブロック引用要素</p>
+        <cite>cite 引用元</cite>
+    </blockquote>
+    <div style="display:flex;">
+        <ul><li>あ</li><li>い</li><li>う</li></ul>
+        <ol><li>あ</li><li>い</li><li>う</li></ol>
+        <ol type="A"><li>あ</li><li>い</li><li>う</li></ol>
+        <ol type="a"><li>あ</li><li>い</li><li>う</li></ol>
+        <ol type="I"><li>あ</li><li>い</li><li>う</li></ol>
+        <ol type="i"><li>あ</li><li>い</li><li>う</li></ol>
+        <table>
+            <caption>表題</caption>
+            <tr><th>列A</th><th>列B</th><th>列C</th></tr>
+            <tr><td>値1</td><td>値2</td><td>値3</td></tr>
+            <tr><td>値4</td><td>値5</td><td>値6</td></tr>
+        </table>
+        <dl>
+            <dt>HTML</dt>
+            <dd>ハイパーなテキストをマークアップするランゲージ</dd>
+
+            <dt>CSS</dt>
+            <dd>カスケードなスタイルシート</dd>
+
+            <dt>JavaScript</dt>
+            <dd>ブラウザで実行可能なスクリプト言語</dd>
+        </dl>
+    </div>
+    <hr>
+    <form>
+        <fieldset><legend>input</legend>
+            <fieldset><legend>テキスト系</legend>
+                <input type="text" value="テキスト入力フォーム"></input>
+                <input type="password" value="パスワード"></input>
+                <input type="search" value="検索文字"></input>
+                <input type="tel" value="09000000000"></input>
+                <input type="url" value="https://"></input>
+                <input type="email" value="abc@d.com"></input>
+            </fieldset>
+            <fieldset><legend>日時系</legend>
+                <input type="date"></input>
+                <input type="datetime-local"></input>
+                <input type="week"></input>
+                <input type="month"></input>
+            <input type="time"></input>
+            </fieldset>
+            <fieldset><legend>数値系</legend>
+                <input type="number"></input>
+                <input type="range"></input>
+            </fieldset>
+            <fieldset><legend>選択系</legend>
+                <label><input type="checkbox" checked></input>ラベル</label>
+                <label><input type="radio"checked></input>男</label>
+                <input type="color"></input>
+                <input type="file"></input>
+                <input type="hidden"></input>
+            </fieldset>
+        </fieldset>
+        <textarea>テキスト\n入力\nフォーム</textarea>
+        <select>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+        </select>
+        <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="50">at 50/100</meter>
+        <progress id="file" max="100" value="70">70%</progress>
+    </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
+<!-- https://coliss.com/articles/build-websites/operation/work/html-template-for-web-apps-or-sites.html -->
+<!-- https://coliss.com/articles/build-websites/operation/work/html5-template-for-2018.html -->
